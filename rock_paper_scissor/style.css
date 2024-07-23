@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+body{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-image: url('https://image.freepik.com/free-photo/dark-black-crumpled-paper-close-up-texture-background_99266-411.jpg');
+   
+}
+.title{
+    color: orange ;
+    height:70px;
+    width: 100%;
+    margin: 15px;
+    padding: 35px 15px; 
+    line-height: 5rem;
+    font-size: x-large;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem
+}
+#refresh{
+    background-color: transparent;
+    border-color: grey;
+    border-radius: 2rem;
+    height: 30px;
+    width: 160px;
+    color: white;
+}
+.score{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 2rem;
+     color: white;
+     padding-top: 80px;
+     gap: 12rem;
+
+}
+#user,#system{
+    font-size: 5rem;
+    padding: 4px 18px;
+}
+button{
+
+   border-color: white;
+   border-radius: 50%;
+}
+button:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.choices{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    
+}
+#rock,#paper,#scissor{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+.msg-con{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.msg{
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: orange;
+    color: white;
+    font-size: 2rem;
+    font-weight: 200;
+    display: inline;
+}
+
